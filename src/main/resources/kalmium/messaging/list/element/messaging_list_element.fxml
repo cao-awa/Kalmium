@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" xmlns:fx="http://javafx.com/fxml/1">
+    <Label fx:id="senderNameLabel" layoutY="14.0" prefHeight="17.0" prefWidth="241.0" text="sender.name" />
+    <Label fx:id="extraInfoLabel" layoutX="245.0" layoutY="14.0" prefHeight="17.0" prefWidth="161.0" text="extra.information" />
+   <TextArea fx:id="messageContentArea" layoutY="37.0" maxHeight="30" prefWidth="404.0" wrapText="true" editable="false" />
+</AnchorPane>
